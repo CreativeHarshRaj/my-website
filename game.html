@@ -1,0 +1,51 @@
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="game.css">
+  <link rel="stylesheet" href="style.css">
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Itim&display=swap" rel="stylesheet">
+  <script src="script.js"></script>
+  <title>Tic-Tac-Toe by Harsh Raj</title>
+</head>
+
+<body>
+  <div>
+    <table border="1" cellpadding="10">
+      <tr>
+        <th><a href="index.html">Home</a></th><th ><a href="content.html">Content</a></th><th><a href="about.html">About</a></th><th class="active"><a href="game.html">Game</a></th>
+      </tr>
+    </table>
+  </div><hr color="white">
+  <main class="background">
+    <section class="title">
+      <h1 class="font-style">Tic Tac Toe</h1>
+      <label for="owner" class="font-style">By Harsh Raj</label>
+    </section>
+    <section class="display font-style">
+      Player <span class="display-player playerX">X</span>'s turn
+    </section>
+    <section class="container">
+      <div class="tile"></div>
+      <div class="tile"></div>
+      <div class="tile"></div>
+      <div class="tile"></div>
+      <div class="tile"></div>
+      <div class="tile"></div>
+      <div class="tile"></div>
+      <div class="tile"></div>
+      <div class="tile"></div>
+    </section>
+    <section class="display announcer hide font-style"></section>
+    <section class="controls">
+      <button id="reset" class="font-style">Reset</button>
+    </section>
+  </main>
+  <script src="game.js">
+</body>
+
+</html>
+
